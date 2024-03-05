@@ -24,21 +24,21 @@ class Team
   
 end
 
-team1 = Team.new(name:"Giants",win:67,lose:43,draw:8)
+team1 = Team.new("Giants",67,43,8)
 puts team1.show_team_result
 
-team2 = Team.new(name:"Tigers",win:60,lose:53,draw:7)
+team2 = Team.new("Tigers",60,53,7)
 puts team2.show_team_result
 
-team3 = Team.new(name:"Dragons",win:60,lose:55,draw:5)
+team3 = Team.new("Dragons",60,55,5)
 puts team3.show_team_result
 
-team4 = Team.new(name:"BayStars",win:56,lose:58,draw:6)
+team4 = Team.new("BayStars",56,58,6)
 puts team4.show_team_result
 
-team5 = Team.new(name:"Carp",win:52,lose:56,draw:12)
+team5 = Team.new("Carp",52,56,12)
 puts team5.show_team_result
 
-team6 = Team.new(name:"Swallows",win:41,lose:69,draw:10,)
+team6 = Team.new("Swallows",41,69,10,)
 puts team6.show_team_result
 
