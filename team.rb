@@ -2,7 +2,7 @@ class Team
   
   attr_accessor :name,:win,:lose,:draw
   
-  def initialize(name:,win:,lose:,draw:)
+  def initialize(name,win,lose,draw)
     @name = name
     @win = win
     @lose = lose
